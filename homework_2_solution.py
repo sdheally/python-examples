@@ -1,28 +1,9 @@
 '''
 homework_2_solution.py
 
+Write a program that asks the user for a letter.
+The program should then determine if the letter is a vowel or not.
 '''
-#  General requirements with point values:
-#  Points:                                                        pts. off if corrected       pts. off if not corrected
-#  1.  Violation of style guide                                    0                            5
-#  2.  Very Confusing Code                                         0                            5
-#  3.  Function AskForLetter() is present                          1                            2
-#  4.  Repeatedly ask user for letter until vowel or 'quit'          1                            3
-#  5.  Use of len()                                                1                            3
-#  6.  AskForLetter() calls IsVowel()                               1                            2
-#  7.  AskForLetter() calls PrintIsVowel(letter)                   1                            2
-#  8.  Function IsVowel() is present                                1                            2
-#  9.  IsVowel() takes letter as input                               1                            3
-#  10.  IsVowel() returns Boolean                                    1                            2
-#  11.  IsVowel() calls IsLowercaseVowel() and IsUppercaseVowel()    1                            3
-#  12.  IsLowercasseVowel() is present                               1                            2
-#  13.  IsLowercaseVowel() determines if single letter is lowercase   2                            4
-#  14.  IsLowercaseVowel() returns Boolean if lowercase               1                            2
-#  15.  IsUppercasseVowel() is present                               1                            2
-#  16.  IsUppercaseVowel() determines if single letter is uppercase   2                            4
-#  17.  IsUppercaseVowel() returns Boolean if uppercase               1                            2
-#  18.  Function PrintIsVowel(letter) is present                      1                            2
-
 
 def AskForLetter():
 
