@@ -4,7 +4,6 @@
 #
 # Homework #1
 #
-# 
 # 1. Ask user for their dream job title.
 #
 job_input = raw_input ("What is your dream job title?\n")
